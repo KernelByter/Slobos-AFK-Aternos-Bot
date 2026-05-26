@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 70,
+    "max-reconnect-delay": 700
   },
   "movement": {
     "enabled": true,
@@ -73,7 +73,7 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
+    "enabled": true,
     "webhookUrl": "https://discord.com/api/webhooks/1508967535561674975/oWL3hoLQlumLKQnJUpD7VYyPWpxZ4ZrLkdMhB4dFrwwxub7B6K0D21udaWCd7SACQcp3",
     "events": {
       "connect": true,
